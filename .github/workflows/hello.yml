@@ -4,14 +4,9 @@ on:
   push:
     branches:
       - main
-
 jobs:
-  hello_world:
-    runs-on: ubuntu-18.04
+  hello-world:
+    runs-on: ubuntu-18
     steps:
-      - name: Echo the message
-        run: |
-          echo "Hola midu!"
-      - name: Dime la fecha
-        run: date
-      - run: ls -l
+      - name: Echo Hello
+        run: echo "Hello, world"
