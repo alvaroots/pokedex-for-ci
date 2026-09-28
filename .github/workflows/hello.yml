@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Echo Hello
         run: echo "Hello, world"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
